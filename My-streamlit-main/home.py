@@ -1,27 +1,24 @@
-
 import streamlit as st
 from st_pages import Page, Section, show_pages, add_page_title, hide_pages
 
 add_page_title()
 show_pages(
-    [   
-        Page("home.py", "ITEQMT Machine Learning Application Portfolio", "👨‍💻"),
+    [
+        Page("My-streamlit-main/home.py", "ITEQMT Machine Learning Application Portfolio", "👨‍💻"),
         Section("Main Page", "📢"),
-        Page("pages/aboutme.py", "ABOUT ME", "1️⃣", in_section=True),
-        Page("pages/description.py", "Streamlit App Description", "2️⃣", in_section=True),
-        Page("pages/learnings.py", "🧠 What I Have Learned", "3️⃣", in_section=True),
-     
-  
-        Section("Sample Projects", "📂"),
-        Page("pages/analyzer.py", "📝Basic Sentiment Analyzer", "1️⃣", in_section=True),
-        Page("pages/classification.py", "Dog Breeds  Classification", "2️⃣", in_section=True),
-        Page("pages/prediction.py", "📊 Prediction", "3️⃣", in_section=True),
+        Page("My-streamlit-main/pages/aboutme.py", "ABOUT ME", "1️⃣", in_section=True),
+        Page("My-streamlit-main/pages/description.py", "Streamlit App Description", "2️⃣", in_section=True),
+        Page("My-streamlit-main/pages/learnings.py", "🧠 What I Have Learned", "3️⃣", in_section=True),
 
-        Section("Project Source Code","💻"),
-        Page("pages/analyze_src.py","Sentiment Analyzer SRC", "1️⃣", in_section=True),
-        Page("pages/classification_src.py","Image Classificatiom SRC", "2️⃣", in_section=True),
-        Page("pages/prediction_src.py","Prediction SRC", "3️⃣", in_section=True),
-        
+        Section("Sample Projects", "📂"),
+        Page("My-streamlit-main/pages/analyzer.py", "📝Basic Sentiment Analyzer", "1️⃣", in_section=True),
+        Page("My-streamlit-main/pages/classification.py", "Dog Breeds Classification", "2️⃣", in_section=True),
+        Page("My-streamlit-main/pages/prediction.py", "📊 Prediction", "3️⃣", in_section=True),
+
+        Section("Project Source Code", "💻"),
+        Page("My-streamlit-main/pages/analyze_src.py", "Sentiment Analyzer SRC", "1️⃣", in_section=True),
+        Page("My-streamlit-main/pages/classification_src.py", "Image Classification SRC", "2️⃣", in_section=True),
+        Page("My-streamlit-main/pages/prediction_src.py", "Prediction SRC", "3️⃣", in_section=True),
     ]
 )
 
